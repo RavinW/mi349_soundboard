@@ -9,8 +9,14 @@ var buttonElement = document.getElementById('bell')
 
 /*The callback function, which confirms that our event listener really is working, by printing 
 I was clicked! whenever we click on the button. */ 
-    console.log('Bell was clicked!')
+    console.log('Bell button was clicked!')
+    
+    /*Plays the audio*/
+    buttonElement.play('bicycle_bell.wav')
   })
+
+  
+  
 
   /* */ 
 
