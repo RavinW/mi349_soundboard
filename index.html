@@ -1,1 +1,73 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Links the CSS & javascript file to the html document-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="audio-board" href="soundboard.js">
+
+    <title>Sound Board</title>
+</head>
+<body>
+
+    <h1>Ravins Sound Board</h1>
+ 
+        
+        <figure class="bell">
+            <figcaption>Listen to a: <button id="bell">Bicycle bell</button> </figcaption>
+            
+                <audio
+                 src="bicycle_bell.wav">
+                    Your browser does not support the
+                    <code>audio</code> element.
+                </audio>
+        </figure>
+        
+       
+
+
+        <button id="coughing">Coughing</button> 
+        <button id="thunder">Thunder</button> 
+
+
+    
+</body>
+</html>
+
+
+
+
+
+ <!--figure Creates audio source element & plays the linked audio
+    <figure class="bell">
+        <figcaption>Listen to a bicycle bell:</figcaption>
+        <audio
+            controls
+            src="bicycle_bell.wav">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+    </figure>
+    
+    <figure id="coughing">
+        <figcaption>Listen to someone coughing:</figcaption>
+        <audio
+            controls
+            src="cough_x.wav">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+    </figure>
+
+    <figure class="thunder">
+        <figcaption>Listen to some thunder :</figcaption>
+        <audio
+            controls
+            src="thunder.wav">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+    </figure>
+    -->

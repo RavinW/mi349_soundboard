@@ -1,1 +1,35 @@
-style.css
+/* Type selector: body, h1, div & p
+    Id selector: #blog
+    Class selector: .blog posts
+    attribute selector: a[title]{}
+*/
+
+/*Sound buttons*/
+#bell{
+    
+    margin: 0 auto; /*Centers your website design on the page*/
+    text-align: center; /*Centers your text*/
+
+}
+
+#coughing{
+    margin: 0 auto; /*Centers your website design on the page*/
+    text-align: center; /*Centers your text*/
+
+}
+
+
+#thunder{
+    margin: 0 auto; /*Centers your website design on the page*/
+    text-align: center; /*Centers your text*/
+
+
+}
+
+
+
+
+
+   
+
+
