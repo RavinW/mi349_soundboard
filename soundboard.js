@@ -5,7 +5,7 @@ var buttonElement = document.getElementById('bell')
         Add event listener requires: the name of the event to listen for & The callback function, 
         which JavaScript looks back to and calls whenever that event happensThe call back function*/ 
 
-    buttonElement.addEventListener('play', (event)=> {
+    buttonElement.addEventListener('click', (event)=> {
 
 /*The callback function, which confirms that our event listener really is working, by printing 
 I was clicked! whenever we click on the button. */ 
