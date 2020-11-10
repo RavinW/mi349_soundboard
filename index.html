@@ -14,12 +14,13 @@
 
     <h1>Ravins Sound Board</h1>
     <!--Button for bicycle bell audio-->
-    <button id="bell">Bicycle bell
-        <audio src="bicycle_bell.wav">
+    <button onclick="playBell()" type="button">Bicycle Bell</button>
+    <audio id="bell">
+          <source src="bicycle_bell.wav" type="bellaudio/Wave">
             Your browser does not support the
             <code>audio</code> element.
-        </audio>
-    </button>
+    </audio>
+    
         
 
 
@@ -27,7 +28,7 @@
         
        
 
-<!--Button for cough audio-->
+<!--Button for cough audio-- <button onclick="playAud()" type="button">Bicycle bell</button>-->
         <button id="coughing">Coughing</button> 
      <!--Button for thunder audio-->
         <button id="thunder">Thunder</button> 
