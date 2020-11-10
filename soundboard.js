@@ -6,11 +6,28 @@ var thunderElement = document.getElementById('thunder')
 /* Listens to see if the user clicked the button.
         Add event listener requires: the name of the event to listen for & The callback function, 
         which JavaScript looks back to and calls whenever that event happensThe call back function*/ 
-    buttonElement.addEventListener('click', function () {
+
+    bellElement.addEventListener('click', function () {
+
 /*The callback function, which confirms that our event listener really is working, by printing 
 I was clicked! whenever we click on the button. */ 
-    console.log('Button was clicked!')
+
+    console.log('Bell Button was clicked!')
   })
+
+  coughElement.addEventListener('click', function () {
+    console.log('Cough Button was clicked!')
+    })
+
+    thunderElement.addEventListener('click', function () {
+        console.log('Thunder Button was clicked!')
+    })
+    
+
+        
+
+
+
 
 
  /*Plays the bell audio*/
