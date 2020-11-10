@@ -11,7 +11,7 @@ var thunderElement = document.getElementById('thunder')
 
 /*Plays the coughing audio*/
     function playCough(){
-        coughElementtwo.play()}
+        coughElement.play()}
 
 
 
