@@ -4,6 +4,7 @@
     attribute selector: a[title]{}
 */
 
+
 /*Sound buttons*/
 #bell{
     
@@ -13,15 +14,15 @@
 }
 
 #coughing{
-    margin: 0 auto; /*Centers your website design on the page*/
-    text-align: center; /*Centers your text*/
+    margin: 0 auto; 
+    text-align: center; 
 
 }
 
 
 #thunder{
-    margin: 0 auto; /*Centers your website design on the page*/
-    text-align: center; /*Centers your text*/
+    margin: 0 auto; 
+    text-align: center; 
 
 
 }
