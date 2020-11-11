@@ -1,63 +1,37 @@
-  /* creates a variable, then Finds the id function of a button */ 
-let playChing = document.getElementById("Bell");
-/*Plays the bell audio*/
+/* creates variable then Finds the Button id element & links them */ 
+let playChing = document.getElementById("Bell"); 
+
+ /*Calls the button variable with onclick element then calls on function to link audio*/
 playChing.onclick = function() {
-    var bell = document.getElementById("bell")
+
+/* variable Finds the Audio id element & links it to the button click */ 
+    let bell = document.getElementById("bell") 
+    
+/*Plays the bell audio*/
     bell.play();
+
+ /*Phantom message in the javacript console to let me know the buttons been clicked*/
+    console.log("Bell button clicked!")
+};
+
+/*Play the Coughing audio*/
+let playCough = document.getElementById("cough");/*Button id element in html*/
+
+playCough.onclick = function() {
+    let cough = document.getElementById("Coughing") /*Audio id element in html*/
+    cough.play();
     console.log("Bell button clicked!")
 };
 
 
-/*Plays the coughing audio*
-    function playCough(){
-        var coughing = document.getElementById("coughing")
-        console.log("Cough sound clicked!")
-    } /
 
+/*Play the Thunder audio*/
+let playThunder= document.getElementById("Thunder"); /*Button id element in html*/
 
+playThunder.onclick = function() {
+    let thunder = document.getElementById("thunder") /*Audio id element in html*/
+    thunder.play();
+    console.log("Bell button clicked!")
+};
 
-/*Plays the thunder audio*
-    function playThunder(){
-        var thunder = document.getElementById("thunder")
-        thunder.play();
-        console.log("Thunder sound clicked!")
-    } / 
-
-
-
-
-
-
-
- 
-/* Listens to see if the user clicked the button.
-        Add event listener requires: the name of the event to listen for & The callback function, 
-        which JavaScript looks back to and calls whenever that event happensThe call back function*/ 
-
-  /* Plays the bell audio 
-  bellElement.addEventListener('click', function () {  
-        bellElement.play()*/
-        
-/*The callback function, which confirms that our event listener really is working, by printing 
-I was clicked! whenever we click on the button. 
-        
-        console.log('Bell Button was clicked!')
-        
-     })*/ 
-
-
- /*Plays the coughing audio
-    coughElement.addEventListener('click', function () {
-        coughElementtwo.play()
-        console.log('Cough Button was clicked!')
-    })*/
- 
- 
- /*Plays the thunder audio
-    thunderElement.addEventListener('click', function () {
-        thunderElement.play()
-        console.log('Thunder Button was clicked!')
-    })*/
-    
-  
  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */  /* */ 
