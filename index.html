@@ -16,7 +16,7 @@
     <!--Button for bicycle bell audio-->
     <button onclick="playBell()" type="button">Play Bicycle Bell</button>
         <audio id="bell">
-            <source src="bicycle_bell.wav" type="bellaudio/Wave">
+            <source src="bicycle_bell.wav" type="audio/wav">
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
@@ -25,7 +25,7 @@
 <!--Button for cough audio -->
     <button onclick="playCough()" type="button">Play Coughing</button>
         <audio id="coughing">
-            <source src="cough_x.wav" type="bellaudio/Wave">
+            <source src="cough_x.wav" type="audio/wav">
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
@@ -34,7 +34,7 @@
 <!--Button for thunder audio-->
     <button onclick="playThunder()" type="button">Play Thunder</button>
         <audio id="thunder">
-            <source src="thunder.wav" type="bellaudio/Wave">
+            <source src="thunder.wav" type="audio/wav">
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
@@ -46,9 +46,8 @@
 
 
     <!--links to javascript file & Runs javascript after the webpage loads-->
-        
        
-        <link rel="sound-effects" href="soundboard.js">
+    <link rel="stylesheet" href="soundboard.js">
 </body>
 </html>
 
