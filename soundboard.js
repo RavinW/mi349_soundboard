@@ -8,8 +8,8 @@
 
 function playBell(){
     var bell = document.getElementById("bell");
-        bell.play();
-        console.log("Bell sound clicked!")   
+    bell.play();
+    console.log("Bell sound clicked!")   
     }
 
 
