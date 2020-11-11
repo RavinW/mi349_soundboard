@@ -4,29 +4,30 @@
 
 
 
-  /*Plays the bell audio*/
-    function playBell(){
-        var bell = document.getElementById("bell")
+  /*Plays the bell audio */
+
+function playBell(){
+    var bell = document.getElementById("bell");
         bell.play();
         console.log("Bell sound clicked!")   
     }
 
 
-/*Plays the coughing audio*/
+/*Plays the coughing audio
     function playCough(){
         var coughing = document.getElementById("coughing")
         console.log("Cough sound clicked!")
     }
+*/
 
 
-
-/*Plays the thunder audio*/ 
+/*Plays the thunder audio
     function playThunder(){
         var thunder = document.getElementById("thunder")
         thunder.play();
         console.log("Thunder sound clicked!")
     } 
-
+*/ 
 
 
 
