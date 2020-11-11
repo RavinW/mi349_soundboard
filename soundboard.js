@@ -1,30 +1,30 @@
   /* creates a variable, then Finds the id function of a button */ 
-var bellElement = document.getElementById('bell')
-var coughElement = document.getElementById('coughing')
-var thunderElement = document.getElementById('thunder')
+
+
+
 
 
   /*Plays the bell audio*/
     function playBell(){
-
-        bellElement.play();
-        console.log("Bell sound clicked")
-        
+        var bell = document.getElementById('bell')
+        bell.play();
+        console.log("Bell sound clicked!")   
     }
 
 
 /*Plays the coughing audio*/
     function playCough(){
-        coughElement.play();
-        console.log("Cough sound clicked")
+        var coughing = document.getElementById('coughing').play();
+        console.log("Cough sound clicked!")
     }
 
 
 
 /*Plays the thunder audio*/ 
     function playThunder(){
-        thunderElement.play();
-        console.log("Thunder sound clicked")
+        var thunder = document.getElementById('thunder')
+        thunder.play();
+        console.log("Thunder sound clicked!")
     } 
 
 
