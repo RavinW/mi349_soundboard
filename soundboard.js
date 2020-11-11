@@ -6,13 +6,17 @@ var thunderElement = document.getElementById('thunder')
 
   /*Plays the bell audio*/
     function playBell(){
+
         bellElement.play();
+        console.log("Bell sound clicked")
+        
     }
 
 
 /*Plays the coughing audio*/
     function playCough(){
         coughElement.play();
+        console.log("Cough sound clicked")
     }
 
 
@@ -20,6 +24,7 @@ var thunderElement = document.getElementById('thunder')
 /*Plays the thunder audio*/ 
     function playThunder(){
         thunderElement.play();
+        console.log("Thunder sound clicked")
     } 
 
 
