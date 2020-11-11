@@ -1,34 +1,28 @@
   /* creates a variable, then Finds the id function of a button */ 
-
-
-var bell = new Audio();
-bell.src = "C:\Users\lat6420\Desktop\mi349_soundboard\bicycle_bell.wav";
-
-
-  /*Plays the bell audio */
-
-function playChing(){
+let playChing = document.getElementById("Bell");
+/*Plays the bell audio*/
+playChing.onclick = function() {
+    var bell = document.getElementById("bell")
     bell.play();
-    console.log("Bell sound clicked!")   
-   
-    }
+    console.log("Bell button clicked!")
+};
 
 
-/*Plays the coughing audio
+/*Plays the coughing audio*
     function playCough(){
         var coughing = document.getElementById("coughing")
         console.log("Cough sound clicked!")
-    }
-*/
+    } /
 
 
-/*Plays the thunder audio
+
+/*Plays the thunder audio*
     function playThunder(){
         var thunder = document.getElementById("thunder")
         thunder.play();
         console.log("Thunder sound clicked!")
-    } 
-*/ 
+    } / 
+
 
 
 
