@@ -15,10 +15,10 @@ playChing.onclick = function() {
 };
 
 /*Play the Coughing audio*/
-let playCough = document.getElementById("cough");/*Button id element in html*/
+let playCough = document.getElementById("Cough");/*Button id element in html*/
 
 playCough.onclick = function() {
-    let cough = document.getElementById("Coughing") /*Audio id element in html*/
+    let cough = document.getElementById("coughing") /*Audio id element in html*/
     cough.play();
     console.log("Bell button clicked!")
 };
