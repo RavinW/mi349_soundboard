@@ -1,15 +1,16 @@
   /* creates a variable, then Finds the id function of a button */ 
 
 
-
+var bell = new Audio();
+bell.src = "C:\Users\lat6420\Desktop\mi349_soundboard\bicycle_bell.wav";
 
 
   /*Plays the bell audio */
 
-function playBell(){
-    var bell = document.getElementById("bell");
+function playChing(){
     bell.play();
     console.log("Bell sound clicked!")   
+   
     }
 
 
