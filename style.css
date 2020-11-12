@@ -4,6 +4,13 @@
     attribute selector: a[title]{}
 */
 
+/*Gives title sticky*/
+h1{
+  background: rgb(250, 250, 250);
+  position: sticky;
+  top: 0px;
+  }
+
 /* Buttons Decorations*/
 #Bell{
     text-align: center; /*Centers your text*/
@@ -51,7 +58,7 @@
 }
 
 .Sound{
-  width: 20;
+  width: 30;
   margin-left: 200px;
 }
 
