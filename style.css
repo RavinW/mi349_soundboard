@@ -51,14 +51,12 @@
 
 .column {
   flex: 33.33%;
-  padding: 20px 10px;
-  width: 15px;
+  padding: 5px;
+  width: 5px;
+  height: auto;
 }
 
- button{
-     width: 15;
-     padding: 20px 10px;
- }
+ 
 
 
 
