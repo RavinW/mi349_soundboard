@@ -3,6 +3,9 @@
     Class selector: .blog posts
     attribute selector: a[title]{}
 */
+img.resize {
+  width: 100%; /*Makes images responsive & scale with the size of the browser*/
+}
 
 /* Buttons Decorations*/
 #Bell{
@@ -51,7 +54,7 @@
 }
 
 .Sound{
-  width: 27;
+  width: 20;
   margin-left: 200px;
 }
 
