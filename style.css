@@ -6,7 +6,6 @@
 
 /* Buttons Decorations*/
 #Bell{
-    margin: 0;  /*Centers your website design on the page*/
     text-align: center; /*Centers your text*/
     background-color: #B9E1FF;/*Changes button background*/
     color: #000;
@@ -14,12 +13,10 @@
     text-decoration: none; /*Specifies the decoration added to text*/
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 #Cough{
-    margin: 0; 
-    text-align: center; 
-    margin: 0 auto; /*Centers your website design on the page*/
     text-align: center; /*Centers your text*/
     background-color: #B9E1FF;/*Changes button background*/
     color: #000;
@@ -27,13 +24,11 @@
     text-decoration: none; /*Specifies the decoration added to text*/
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 
 #Thunder{
-    margin: 0; 
-    text-align: center; 
-    margin: 0 auto; /*Centers your website design on the page*/
     text-align: center; /*Centers your text*/
     background-color: #B9E1FF;/*Changes button background*/
     color: #000;
@@ -41,6 +36,7 @@
     text-decoration: none; /*Specifies the decoration added to text*/
     border-radius: 5px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 /*Putting images inline*/
