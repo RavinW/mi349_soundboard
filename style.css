@@ -52,10 +52,15 @@
 .column {
   flex: 33.33%;
   padding: 5px;
-  width: 30px;
+  width: 200px;
+  height: 120;
 }
 
- 
+/*Resize image*/
+ .column img{
+     width: 100%;
+     height: auto;
+ }
 
 
 
