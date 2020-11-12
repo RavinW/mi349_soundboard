@@ -6,26 +6,44 @@
 
 
 /*Sound buttons*/
-#bell{
-    
+#Bell{
+    margin-top: 24px;  /*Centers your website design on the page*/
+    text-align: center; /*Centers your text*/
+    background-color: #B9E1FF;/*Changes button background*/
+    color: #000;
+    padding: 10px;
+    text-decoration: none; /*Specifies the decoration added to text*/
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Cough{
+    margin-top: 24px; 
+    text-align: center; 
     margin: 0 auto; /*Centers your website design on the page*/
     text-align: center; /*Centers your text*/
-
+    background-color: #B9E1FF;/*Changes button background*/
+    color: #000;
+    padding: 10px;
+    text-decoration: none; /*Specifies the decoration added to text*/
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-#coughing{
-    margin: 0 auto; 
+
+#Thunder{
+    margin-top: 24px; 
     text-align: center; 
-
+    margin: 0 auto; /*Centers your website design on the page*/
+    text-align: center; /*Centers your text*/
+    background-color: #B9E1FF;/*Changes button background*/
+    color: #000;
+    padding: 10px;
+    text-decoration: none; /*Specifies the decoration added to text*/
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-
-#thunder{
-    margin: 0 auto; 
-    text-align: center; 
-
-
-}
 
 
 
