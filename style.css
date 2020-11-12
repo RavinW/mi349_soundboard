@@ -6,7 +6,6 @@
 
 /* Buttons Decorations*/
 #Bell{
-    margin: 0;  /*Centers your website design on the page*/
     text-align: center; /*Centers your text*/
     background-color: #B9E1FF;/*Changes button background*/
     color: #000;
@@ -18,7 +17,6 @@
 }
 
 #Cough{
-    margin: 0; 
     text-align: center; /*Centers your text*/
     background-color: #B9E1FF;/*Changes button background*/
     color: #000;
@@ -30,8 +28,7 @@
 }
 
 
-#Thunder{
-    margin: 0;  
+#Thunder{ 
     text-align: center; /*Centers your text*/
     background-color: #B9E1FF;/*Changes button background*/
     color: #000;
@@ -54,7 +51,9 @@
 }
 
 .Sound{
-  margin-left: 200px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
    
