@@ -11,6 +11,11 @@ h1{
   top: 0px;
   }
 
+  /*Putting the articles inline*/
+  main{
+    display: flex;
+  }
+
 /* Buttons Decorations*/
 #Bell{
     text-align: center; /*Centers your text*/
@@ -46,20 +51,17 @@ h1{
     font-size: large;
 }
 
-/*Putting images inline*/
-.row {
-  display: flex;
-  margin: 0;
+/* Changing each articles size display  */
+.Bsound{
+  flex: 3;
 }
 
-.column {
-  flex: 33.33%;
-  padding: 5px;
+.Csound{
+  flex: 3;
 }
 
-.Sound{
-  width: 30;
-  margin-left: 200px;
+.Tsound{
+  flex: 3;
 }
 
    

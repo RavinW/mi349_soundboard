@@ -12,43 +12,47 @@
 <body>
 
     <h1>Ravins Sound Board</h1>
+
+    <main>
     
-    <!--Pictures side by side -->
-    <div class="row">
-        <div class="column">
-          <img src="bell.jpg" alt="Bicycle bell" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="boycough.jpg" alt="Boy coughing" style="width:100%">
-        </div>
-        <div class="column">
-          <img src="Thunder.jpg" alt="Thunder" style="width:100%">
-        </div>
-      </div>
-
-
     <!--Button for bicycle bell audio-->
-    <button id ="Bell" class="Sound">Play Bicycle Bell</button>
+    <article class="Bsound">
+      <p><img src="bell.jpg" alt="Bicycle bell" style="width:100%"></p>
+      
+      <button id ="Bell" class="Sound">Play Bicycle Bell</button>
         <audio id="bell" src="bicycle_bell.wav" >
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
-      
+
+      </article>
 
 <!--Button for cough audio-->
-    <button id = "Cough" class="Sound">Play Coughing</button>
+    <article class="Csound">
+      <p><img src="boycough.jpg" alt="Boy coughing" style="width:100%"></p>
+
+      <button id = "Cough" class="Sound">Play Coughing</button>
         <audio id="coughing" src="cough_x.wav" >
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
 
+    </article>
+
 <!--Button for thunder audio-->
-    <button id="Thunder" class="Sound">Play Thunder</button>
+    <article class="Tsound">
+      <p><img src="Thunder.jpg" alt="Thunder" style="width:100%"></p>
+
+      <button id="Thunder" class="Sound">Play Thunder</button>
         <audio id="thunder" src="thunder.wav" >
                 Your browser does not support the
                 <code>audio</code> element.
         </audio>
         
+    </article>
+
+</main>
+
     <!--links to javascript file & Runs javascript after the webpage loads-->
     <script src="soundboard.js"></script> 
 </body>
