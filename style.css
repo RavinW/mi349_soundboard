@@ -13,7 +13,7 @@ h1{
 
   /*puuting images in inline*/
   main{
-    display: inline-block;
+    display: flex;
   }
 
 /* Buttons Decorations*/
