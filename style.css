@@ -13,7 +13,7 @@ h1{
 
   /*puuting images in inline*/
   main{
-    display: flex;
+    display: inline-block;
   }
 
 /* Buttons Decorations*/
@@ -57,7 +57,7 @@ h1{
 }
 
 .Csound{
-  flex: 2;
+  flex: 3;
 }
 
 .Tsound{
@@ -65,7 +65,6 @@ h1{
 }
    
 .Sound{		  
-  width: 50%;
   margin-left: 200px;
 }	
 
