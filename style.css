@@ -11,7 +11,7 @@ h1{
   top: 0px;
   }
 
-  /*Putting the articles inline*/
+  /*puuting images in inline*/
   main{
     display: flex;
   }
@@ -51,7 +51,7 @@ h1{
     font-size: large;
 }
 
-/* Changing each articles size display  */
+/* Changing each images display size   */
 .Bsound{
   flex: 3;
 }
@@ -63,7 +63,9 @@ h1{
 .Tsound{
   flex: 3;
 }
-
    
-
+.Sound{		  
+  width: 50%;
+  margin-left: 200px;
+}	
 
